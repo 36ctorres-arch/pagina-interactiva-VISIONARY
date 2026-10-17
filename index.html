@@ -1,36 +1,18 @@
 
 <!DOCTYPE html>
-<html lang="es-AR">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta name="theme-color" content="#091326">
-  <meta name="description" content="VISIONARY: descubrí OMNILIFE, SEYTÚ y nuevas oportunidades para emprender. Bienestar, belleza y negocio digital. Contactanos por WhatsApp.">
-  <meta name="robots" content="index, follow">
+  <meta name="description" content="VISIONARY: descubrí OMNILIFE, SEYTÚ y nuevas oportunidades para emprender. Contactanos por WhatsApp.">
 
-  <title>VISIONARY | Bienestar, belleza y emprendimiento</title>
-
-  <!-- OPEN GRAPH: vista previa para Facebook y WhatsApp -->
-  <meta property="og:type" content="website">
   <meta property="og:title" content="VISIONARY | Bienestar, belleza y emprendimiento">
-  <meta property="og:description" content="Descubrí OMNILIFE, SEYTÚ y nuevas oportunidades para emprender. Tu próximo paso empieza acá.">
-  <meta property="og:locale" content="es_AR">
-  <meta property="og:site_name" content="VISIONARY">
-  <meta property="og:image" content="https://vivaomni.com.br/assets/45267/images/Design_sem_nome_-10-.png">
-  <meta property="og:image:alt" content="Productos de nutrición y bienestar OMNILIFE">
-  <meta property="og:image:type" content="image/png">
+  <meta property="og:description" content="Conocé nuestros productos y descubrí nuevas oportunidades para emprender.">
+  <meta property="og:type" content="website">
 
-  <!-- TARJETA PARA X / TWITTER -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="VISIONARY | Bienestar, belleza y emprendimiento">
-  <meta name="twitter:description" content="Conocé OMNILIFE, SEYTÚ y nuevas oportunidades para emprender.">
-  <meta name="twitter:image" content="https://vivaomni.com.br/assets/45267/images/Design_sem_nome_-10-.png">
-  <meta name="twitter:image:alt" content="Productos de nutrición y bienestar OMNILIFE">
-
-  <!-- IMPORTANTE:
-       Cuando tengas la URL pública definitiva de esta página,
-       agregá og:url con esa dirección exacta.
-       twitter:site requiere tu usuario real de X; no uses Instagram aquí. -->
+  <title>VISIONARY | Tu próximo paso</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,7 +41,8 @@
     body {
       font-family: 'Montserrat', sans-serif;
       color: var(--ivory);
-      background: radial-gradient(ellipse at top, #1b2d4b 0%, var(--navy) 60%);
+      background:
+        radial-gradient(ellipse at top, #1b2d4b 0%, var(--navy) 60%);
       min-height: 100vh;
       overflow-x: hidden;
     }
@@ -76,8 +59,8 @@
 
     header {
       padding: 22px 0;
-      border-bottom: 1px solid rgba(216,182,108,.24);
-      background: rgba(9,19,38,.90);
+      border-bottom: 1px solid rgba(216, 182, 108, .24);
+      background: rgba(9, 19, 38, .86);
       position: sticky;
       top: 0;
       z-index: 10;
@@ -172,10 +155,14 @@
 
     .shine {
       display: inline-block;
-      background: linear-gradient(100deg, #c49d4f 0%, #fff0bc 45%, #c49d4f 80%);
+      background: linear-gradient(
+        100deg,
+        #c49d4f 0%,
+        #fff0bc 45%,
+        #c49d4f 80%
+      );
       background-size: 200% auto;
       color: transparent;
-      -webkit-background-clip: text;
       background-clip: text;
       animation: goldShine 5s linear infinite;
     }
@@ -204,7 +191,11 @@
     }
 
     .card {
-      background: linear-gradient(155deg, rgba(31,48,76,.95), rgba(13,24,44,.98));
+      background: linear-gradient(
+        155deg,
+        rgba(31,48,76,.95),
+        rgba(13,24,44,.98)
+      );
       border: 1px solid rgba(216,182,108,.28);
       border-radius: 22px;
       overflow: hidden;
@@ -212,7 +203,10 @@
       flex-direction: column;
       min-width: 0;
       box-shadow: 0 14px 35px rgba(0,0,0,.19);
-      transition: transform .4s ease, border-color .4s ease, box-shadow .4s ease;
+      transition:
+        transform .4s ease,
+        border-color .4s ease,
+        box-shadow .4s ease;
       animation: fadeUp .8s ease both;
     }
 
@@ -227,7 +221,8 @@
     .card:hover {
       transform: translateY(-10px);
       border-color: var(--gold);
-      box-shadow: 0 22px 45px rgba(0,0,0,.35), 0 0 24px rgba(216,182,108,.1);
+      box-shadow: 0 22px 45px rgba(0,0,0,.35),
+                  0 0 24px rgba(216,182,108,.1);
     }
 
     .image-wrap {
@@ -254,7 +249,7 @@
     }
 
     .card:hover .image-wrap img {
-      transform: scale(1.07);
+      transform: scale(1.09);
     }
 
     .card-number {
@@ -263,7 +258,7 @@
       top: 15px;
       left: 15px;
       border: 1px solid rgba(255,240,188,.7);
-      background: rgba(9,19,38,.82);
+      background: rgba(9,19,38,.75);
       color: var(--gold-light);
       padding: 7px 11px;
       border-radius: 50px;
@@ -311,7 +306,10 @@
       border: 1px solid rgba(255,244,210,.65);
       cursor: pointer;
       box-shadow: 0 5px 18px rgba(216,182,108,.12);
-      transition: transform .3s ease, box-shadow .3s ease, background-position .5s ease;
+      transition:
+        transform .3s ease,
+        box-shadow .3s ease,
+        background-position .5s ease;
       animation: buttonGlow 3.2s ease-in-out infinite;
     }
 
@@ -320,12 +318,11 @@
       transform: translateY(-4px) scale(1.02);
       background-position: 100% center;
       box-shadow: 0 9px 25px rgba(216,182,108,.28);
-      outline: 2px solid var(--gold-light);
-      outline-offset: 3px;
+      outline: none;
     }
 
     .button:active {
-      transform: scale(.97);
+      transform: scale(.96);
     }
 
     .button .arrow {
@@ -343,7 +340,9 @@
       margin-bottom: 65px;
       border: 1px solid rgba(216,182,108,.35);
       border-radius: 24px;
-      background: radial-gradient(ellipse at top, rgba(216,182,108,.12), transparent 70%), rgba(18,33,56,.7);
+      background:
+        radial-gradient(ellipse at top, rgba(216,182,108,.12), transparent 70%),
+        rgba(18,33,56,.7);
     }
 
     .cta h2 {
@@ -496,20 +495,23 @@
 <body>
   <header>
     <div class="container nav">
-      <a class="brand" href="#inicio" aria-label="VISIONARY, inicio">
+      <a class="brand" href="#" aria-label="VISIONARY, inicio">
         <span class="diamond"><span>V</span></span>
         <span>VISIONARY</span>
       </a>
 
-      <a class="nav-link"
-         href="https://wa.me/5492995399926?text=Hola%20VISIONARY%2C%20quiero%20conocer%20sus%20propuestas."
-         target="_blank" rel="noopener noreferrer">
+      <a
+        class="nav-link"
+        href="https://wa.me/5492995053620?text=Hola%20VISIONARY%2C%20quiero%20conocer%20sus%20propuestas."
+        target="_blank"
+        rel="noopener"
+      >
         CONTACTANOS ↗
       </a>
     </div>
   </header>
 
-  <main id="inicio">
+  <main>
     <section class="hero container">
       <span class="eyebrow">BIENESTAR · BELLEZA · OPORTUNIDAD</span>
 
@@ -533,14 +535,13 @@
 
       <div class="cards">
 
-        <!-- OMNILIFE -->
+        <!-- SECCIÓN OMNILIFE -->
         <article class="card reveal">
           <div class="image-wrap">
             <img
-              src="https://vivaomni.com.br/assets/45267/images/Design_sem_nome_-10-.png"
-              alt="Productos de nutrición y bienestar OMNILIFE"
+              src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
+              alt="Alimentos frescos que representan nutrición y bienestar"
               loading="lazy"
-              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85';"
             >
             <span class="card-number">01 · BIENESTAR</span>
           </div>
@@ -553,22 +554,24 @@
               para conocer nuestra propuesta.
             </p>
 
-            <a class="button"
-               href="https://wa.me/5492995399926?text=Hola%2C%20quiero%20conocer%20los%20productos%20OMNILIFE%20y%20sus%20opciones."
-               target="_blank" rel="noopener noreferrer">
+            <a
+              class="button"
+              href="https://wa.me/5492995053620?text=Hola%2C%20quiero%20conocer%20los%20productos%20OMNILIFE%20y%20sus%20opciones."
+              target="_blank"
+              rel="noopener"
+            >
               CONOCER OMNILIFE <span class="arrow">→</span>
             </a>
           </div>
         </article>
 
-        <!-- SEYTÚ -->
+        <!-- SECCIÓN SEYTÚ -->
         <article class="card reveal">
           <div class="image-wrap">
             <img
-              src="https://cdn.omnilife.com/public/uploads/images/products/detail/cosmetica/9501178/9501178_linea.png"
-              alt="Productos SEYTÚ para el cuidado facial y la belleza"
+              src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85"
+              alt="Productos cosméticos y cuidado de la piel"
               loading="lazy"
-              onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=85';"
             >
             <span class="card-number">02 · BELLEZA</span>
           </div>
@@ -581,15 +584,18 @@
               para cuidar tu piel.
             </p>
 
-            <a class="button"
-               href="https://wa.me/5492995399926?text=Hola%2C%20quiero%20conocer%20los%20productos%20SEYT%C3%9A%20y%20las%20rutinas%20faciales."
-               target="_blank" rel="noopener noreferrer">
+            <a
+              class="button"
+              href="https://wa.me/5492995053620?text=Hola%2C%20quiero%20conocer%20los%20productos%20SEYT%C3%9A%20y%20las%20rutinas%20faciales."
+              target="_blank"
+              rel="noopener"
+            >
               DESCUBRIR SEYTÚ <span class="arrow">→</span>
             </a>
           </div>
         </article>
 
-        <!-- EMPRENDIMIENTO -->
+        <!-- SECCIÓN EMPRENDIMIENTO -->
         <article class="card reveal">
           <div class="image-wrap">
             <img
@@ -608,9 +614,12 @@
               digitales y las posibilidades de formar parte del equipo.
             </p>
 
-            <a class="button"
-               href="https://wa.me/5492995399926?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20oportunidad%20de%20emprender%20con%20VISIONARY."
-               target="_blank" rel="noopener noreferrer">
+            <a
+              class="button"
+              href="https://wa.me/5492995053620?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20la%20oportunidad%20de%20emprender%20con%20VISIONARY."
+              target="_blank"
+              rel="noopener"
+            >
               SUMARME AL EQUIPO <span class="arrow">→</span>
             </a>
           </div>
@@ -627,10 +636,13 @@
           la opción que mejor se adapte a tus intereses.
         </p>
 
-        <a class="button"
-           href="https://wa.me/5492995399926?text=Hola%20VISIONARY%2C%20quiero%20recibir%20informaci%C3%B3n."
-           target="_blank" rel="noopener noreferrer">
-          <span>WHATSAPP · 299 539 9926</span>
+        <a
+          class="button"
+          href="https://wa.me/5492995053620?text=Hola%20VISIONARY%2C%20quiero%20recibir%20informaci%C3%B3n."
+          target="_blank"
+          rel="noopener"
+        >
+          <span>WHATSAPP · 299 5053620</span>
           <span class="arrow">↗</span>
         </a>
       </div>
@@ -647,9 +659,11 @@
   </footer>
 
   <script>
+    // Año automático
     document.getElementById("year").textContent =
       new Date().getFullYear();
 
+    // Animación de entrada al desplazarse por la página
     const revealItems = document.querySelectorAll(".reveal");
 
     if ("IntersectionObserver" in window) {
@@ -660,7 +674,9 @@
             observer.unobserve(entry.target);
           }
         });
-      }, { threshold: 0.12 });
+      }, {
+        threshold: 0.12
+      });
 
       revealItems.forEach((item) => observer.observe(item));
     } else {
